@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mamidi Yashwanth Babu Portfolio</title>
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "K_3X452lh7FSch2ge",
+        });
+    })();
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Mamidi Yashwanth Babu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a fullstack developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of Computer Science</h3>
+            <p>Malla Reddy Engineering College and Management Sciences, 
+                Kistapur— B.tech(CSE),
+                Oct 2020 - June 2024</p>
+                <ul>
+                    <li>CSE(Computer Science and Engineering) </li>
+                    <li>Aggregate : 6.86 CGPA / 68.6%</li>
+                </ul>
+        </div>
+        <div class="education-item">
+            <h3>Intermediate</h3>
+            <p>Gurukrupa Junior College, Siddipet— MPC,
+                August 2018 - March 2020</p>
+                <ul>
+                    <li> Maths,Physics,Chemistry</li>
+                    <li>Aggregate : 932Marks / 93.2%</li>
+                </ul>
+        </div>
+        <div class="education-item">
+            <h3>SSC</h3>
+            <p>Gayathri High School , Siddipet— Class X,
+                June 2017 - March 2018</p>
+                <ul>
+                    <li>  Class X</li>
+                    <li>Aggregate : 9.7CGPA</li>
+                </ul>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JAVA</li>
+            <li>C++</li>
+            <li>PYTHON</li>
+            <li>ORACLE</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MINI PROJECT : IMPROVEMENT IN ACCURACY TO PREDICT LIVER 
+                DISEASE USING MACHINE LEARNING <br/>   - A Mini Project In Python</h3>
+            <p>This project aims to overcome the challenge of class imbalance by 
+                employing advanced data balancing algorithms. Our proposed 
+                system involves preprocessing the dataset using the Synthetic 
+                Minority Over-sampling Technique (SMOTE). 
+            <a href="HTTPS://IJRDST.ORG/PUBLIC/UPLOADS/PAPER/842421702539946.PDF"> Project URL </a>
+            </p>
+        </div>
+        <div class="project">
+            <h3>MAJOR PROJECT : MULTIMODEL ATM ACCESS SYSTEM USING 
+                BLOCKCHAIN ENABLED CRYPTOGRAPHY TECHNIQUES <br/> – A Major 
+                Project in Python</h3>
+            <p>This project combines biometric data with blockchain technology to 
+                ensure secure ATM access. Users' biometric data, like fingerprints or 
+                facial recognition, is encrypted using advanced cryptographic 
+                algorithms and stored securely on the blockchain.
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Blog Post Title</h3>
+            <p>A brief introduction to the blog post. <a href="#">Read more...</a></p>
+        </div>
+        <div class="blog-post">
+            <h3>Another Blog Post</h3>
+            <p>A brief introduction to the second post. <a href="#">Read more...</a></p>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media">
+        <h2>Social Media</h2>
+        <div class="social-media-buttons">
+            <button onclick="window.open('https://www.linkedin.com/in/mamidi-yashwanth-babu-0040b1202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app')">LinkedIn</button>
+            <button onclick="window.open('https://x.com/nameles0705232?t=fWxlmIjeQvufi5I-VWaT3g&s=09')">Twitter</button>
+            <button onclick="window.open('https://github.com/Mamidi-Yashwanth-Babu')">GitHub</button>
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mamidiyashwanthbabu@gmail.com">mamidiyashwanthbabu@gmail.com</a></p> <!-- Add this line -->
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Mamidi Yashwanth Babu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
